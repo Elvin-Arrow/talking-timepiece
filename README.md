@@ -1,6 +1,6 @@
 # talking timepiece
  
 To get it to work:
-- (https://www.lfd.uci.edu/~gohlke/pythonlibs/)[pyaudio]
+- [pyaudio](https://www.lfd.uci.edu/~gohlke/pythonlibs/)
 - playsound
 - gTTS
