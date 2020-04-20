@@ -43,10 +43,7 @@ def putTimeTogether(useTimePeriod):
     if useTimePeriod:
        currentTime = hours + minutes + ' ' + timePeriod
     else:
-        if int(minutes) == 0:
-            currentTime = hours + ':' + minutes + ' o\'clock'
-        else:
-            currentTime = hours + ':' + minutes
+        currentTime = hours + ':' + minutes
 
 
 
