@@ -1,4 +1,5 @@
-# talking timepiece
+# Talking timepiece
+A small script that says time aloud when run.
  
 To get it to work:
 - [pyaudio](https://www.lfd.uci.edu/~gohlke/pythonlibs/)
