@@ -16,3 +16,35 @@ sudo apt-get install portaudio19-dev python3-pyaudio
 ```bash
 pip install pyaudio
 ```
+
+**In case of a `'gi' module not found` error use the following commands**
+
+The simple way:
+
+```bash
+sudo apt-get install python3-gi
+```
+
+or
+
+For virtualenv users - The vext way
+
+```bash
+pip install vext
+
+pip install vext.gi
+```
+
+The pure python developer way:
+
+Install a bunch of developer stuff:
+
+```bash
+sudo apt-get install pkg-config libcairo2-dev gcc python3-dev libgirepository1.0-dev
+```
+
+Install the python packages:
+
+```bash
+pip install gobject PyGObject
+```
