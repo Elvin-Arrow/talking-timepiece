@@ -17,6 +17,7 @@ sudo apt-get install portaudio19-dev python3-pyaudio
 pip install pyaudio
 ```
 
+## Troubleshooting
 **In case of a `'gi' module not found` error use the following commands**
 
 The simple way:
