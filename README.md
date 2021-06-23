@@ -7,14 +7,45 @@ To get it to work:
 - gTTS
 
 ## Install pyaudio on Linux
-1. First we need to install portaudio modules: ```sudo apt-get install libasound-dev```
 
-2. Download the portaudio archive from: http://portaudio.com/download.html
+1. First run the following command in terminal 
+```bash
+sudo apt-get install portaudio19-dev python3-pyaudio
+```
+2. Then run
+```bash
+pip install pyaudio
+```
 
-2. Unzip the archive: tar -zxvf [portaudio.tgz]
+## Troubleshooting
+**In case of a `'gi' module not found` error use the following commands**
 
-3. Enter the directory, then run: ```./configure && make```
+The simple way:
 
-4. Install: ```sudo make install```
+```bash
+sudo apt-get install python3-gi
+```
 
-5. And finally: ```pip install pyaudio```
+or
+
+For virtualenv users - The vext way
+
+```bash
+pip install vext
+
+pip install vext.gi
+```
+
+The pure python developer way:
+
+Install a bunch of developer stuff:
+
+```bash
+sudo apt-get install pkg-config libcairo2-dev gcc python3-dev libgirepository1.0-dev
+```
+
+Install the python packages:
+
+```bash
+pip install gobject PyGObject
+```
