@@ -8,11 +8,15 @@ To get it to work:
 
 ## Install pyaudio on Linux
 
-1. First run the following command in terminal 
+1. First install
+```bash
+sudo apt install python3-dev
+```
+2. Then run
 ```bash
 sudo apt-get install portaudio19-dev python3-pyaudio
 ```
-2. Then run
+3. Finally
 ```bash
 pip install pyaudio
 ```
