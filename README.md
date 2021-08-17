@@ -5,6 +5,7 @@ To get it to work:
 - [pyaudio](https://www.lfd.uci.edu/~gohlke/pythonlibs/)
 - playsound
 - gTTS
+- pygobject (Optional)
 
 ## Install pyaudio on Linux
 
@@ -19,6 +20,13 @@ sudo apt-get install portaudio19-dev python3-pyaudio
 3. Finally
 ```bash
 pip install pyaudio
+```
+
+## Install pygobject on Linux
+1. Install the following dependencies
+```bash
+sudo apt install libcairo2-dev
+sudo apt install libgirepository1.0-dev
 ```
 
 ## Troubleshooting
