@@ -25,8 +25,7 @@ pip install pyaudio
 ## Install pygobject on Linux
 1. Install the following dependencies
 ```bash
-sudo apt install libcairo2-dev
-sudo apt install libgirepository1.0-dev
+sudo apt install libcairo2-dev libgirepository1.0-dev
 ```
 
 ## Troubleshooting
